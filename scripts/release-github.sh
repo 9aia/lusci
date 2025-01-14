@@ -18,7 +18,7 @@ urlencode() {
 }
 
 # Define your GitHub username and repository name
-github_username="neogaialab"
+github_username="9aia"
 repo_name="lusci"
 
 # Get the version from gradle.properties
