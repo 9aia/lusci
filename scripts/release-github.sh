@@ -22,7 +22,7 @@ github_username="9aia"
 repo_name="lusci"
 
 # Get the version from gradle.properties
-version=$(grep -oP 'version=\K.*' gradle.properties)
+version=$(grep -oP 'version=\K.*' ./bot/gradle.properties)
 
 title="v$version"
 tag_name="v$version"

@@ -10,8 +10,8 @@ run {
 repositories {
   mavenCentral()
   maven {
-    url 'https://m2.dv8tion.net/releases'
-    url "https://jitpack.io"
+    url = 'https://m2.dv8tion.net/releases'
+    url = "https://jitpack.io"
   }
 }
 
@@ -49,9 +49,9 @@ tasks.register('release') {
     def version = new BufferedReader(new InputStreamReader(System.in)).readLine()
 
     if(version) {
-      exec {
-        executable 'bash'
-        args "../scripts/release.sh", version
+      project.exec {
+        executable = 'bash'
+        args = ["./scripts/release.sh", version]
       }
     } else {
       println "No version entered."

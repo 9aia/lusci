@@ -19,11 +19,11 @@ execute_command() {
 }
 
 bump_changelog() {
-  execute_command bash ../scripts/update-changelog.sh
+  execute_command bash ./scripts/update-changelog.sh
 }
 
 release_github() {
-  execute_command bash ../scripts/release-github.sh
+  execute_command bash ./scripts/release-github.sh
 }
 
 # Checks
@@ -61,7 +61,7 @@ build() {
 }
 
 bump_version() {
-  sed -i "s/^version=.*/version=$version/" gradle.properties
+  sed -i "s/^version=.*/version=$version/" ./bot/gradle.properties
 }
 
 git_tasks() {
