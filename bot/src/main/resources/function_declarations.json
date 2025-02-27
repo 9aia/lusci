@@ -49,7 +49,7 @@
   },
   {
     "name": "vol_get",
-    "description": "Unmute the bot's audio."
+    "description": "Get the current volume."
   },
   {
     "name": "vol_set",
@@ -59,7 +59,7 @@
       "properties": {
         "volume": {
           "type": "integer",
-          "description": "Set the volume."
+          "description": "Set the volume. From 0 to 100."
         }
       }
     }
