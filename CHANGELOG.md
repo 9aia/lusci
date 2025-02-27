@@ -13,6 +13,7 @@ description: All notable changes to this project will be documented in this file
 ### Fixed
 
 - Fixed ping command
+- Updated Gemini to Flash 1.5
 
 ## [0.2.0] - 2024-05-01
 

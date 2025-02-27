@@ -16,7 +16,7 @@ public class FunctionCalling {
       JsonNode declarationsNode) throws IOException {
     ObjectMapper objectMapper = new ObjectMapper();
 
-    String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key="
+    String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="
         + Bot.env.get("GEMINI_API_KEY");
 
     var requestBody = objectMapper.createObjectNode();
