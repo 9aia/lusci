@@ -12,8 +12,10 @@ description: All notable changes to this project will be documented in this file
 
 ### Fixed
 
+- Fixed volume values in messages on volume update
 - Fixed ping command
 - Updated Gemini to Flash 1.5
+- Fixed get-volume function description
 
 ## [0.2.0] - 2024-05-01
 

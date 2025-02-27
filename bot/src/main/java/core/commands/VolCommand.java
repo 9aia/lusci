@@ -50,7 +50,7 @@ public class VolCommand extends BotCommand {
 
         audioPlayer.setVolume(newVol);
         event
-            .reply("The volume has been updated to " + vol + ".")
+            .reply("The volume has been updated to " + newVol + ".")
             .queue();
         break;
       case "up":
@@ -63,13 +63,13 @@ public class VolCommand extends BotCommand {
 
         audioPlayer.setVolume(vol + 10);
         event
-            .reply("The volume has been turned up to " + vol + ".")
+            .reply("The volume has been turned up to " + (vol + 10) + ".")
             .queue();
         break;
       case "down":
         audioPlayer.setVolume(vol - 10);
         event
-            .reply("The volume has been turned down to " + vol + ".")
+            .reply("The volume has been turned down to " + (vol - 10) + ".")
             .queue();
         break;
       case "mute":
