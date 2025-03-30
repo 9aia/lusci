@@ -1,5 +1,6 @@
 # TODO
 
+- Fix release (missing JAR)
 - Add function to play a random song
 - Add support for playing albums
 - Add support for jellyfin playlist
