@@ -7,7 +7,7 @@ Lusci is a free and open-source Discord bot designed to enhance your server's mu
 ## Key Features
 
 - **Music Playback:** Stream music from SoundCloud, Bandcamp, Vimeo, Twitch streams, or any HTTP URLs seamlessly.
-- **Jellyfin Integration:** Search and play songs directly from your private Jellyfin server.
+- **Jellyfin Integration (v10.10.3):** Search and play songs directly from your private Jellyfin server.
 - **Control Commands:** Pause/resume tracks, skip to the next song, adjust volume, or mute the bot as needed.
 
 *Note: Lusci operates without a history function, focusing solely on executing natural language commands within Discord's bot environment.*

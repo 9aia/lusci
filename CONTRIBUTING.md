@@ -37,6 +37,9 @@ cd lusci
 - [Semver](https://semver.org/)
 - [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 
+Note:
+- Don't forget to attach the built jar.
+
 ### Scripts
 
 - `gradle run`: Start.
